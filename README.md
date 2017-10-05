@@ -32,11 +32,11 @@ export class AppModule { }
 
 ```html 
 <ng-codepen 
-              height='400' 
-              themeId='light' 
-              url='https://codepen.io/gabrielferreira/pen/JrJmzL'
-              tabs='css,result'
-              title='Nubank Credit Card'></ng-codepen>
+    height='400' 
+    themeId='light' 
+    url='https://codepen.io/gabrielferreira/pen/JrJmzL'
+    tabs='css,result'
+    title='Nubank Credit Card'></ng-codepen>
 ```
 
  - Parameters

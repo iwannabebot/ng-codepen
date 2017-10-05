@@ -14,7 +14,7 @@
  - Declare NgCodepenModule in your root module
 
 ```javascript
-import { NgCodepenModule } from 'ng-codepen'
+import { NgCodepenModule } from 'ng-codepen';
 @NgModule({
   declarations: [
     AppComponent
@@ -31,16 +31,25 @@ export class AppModule { }
  - Use ng-codepen template
 
 ```html 
-<ng-codepen url="http://jscodepen.net/zalun/NmudS" tabs="result,js,html,css" skin="dark"></ng-codepen>
+<ng-codepen 
+              height='400' 
+              themeId='light' 
+              url='https://codepen.io/gabrielferreira/pen/JrJmzL'
+              tabs='css,result'
+              title='Nubank Credit Card'></ng-codepen>
 ```
 
  - Parameters
 
+   - height: string
+  
+   - themeId:  string
+  
    - url: string
   
-   - tabs:  string (optional)
+   - tabs: string
   
-   - skin: string (optional)
+   - title: string
 
 
 # Modify this library 

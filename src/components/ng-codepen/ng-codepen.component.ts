@@ -14,11 +14,11 @@ export class NgCodepenComponent implements AfterViewInit, AfterViewChecked {
 
   @ViewChild('myElement') public myElement: ElementRef;
 
-  @Input() public height: number;
-  @Input() public themeId: string;
-  @Input() public url: string;
-  @Input() public tabs: string;
-  @Input() public title: string;
+  @Input() public height: string = '';
+  @Input() public themeId: string = '';
+  @Input() public url: string = '';
+  @Input() public tabs: string = '';
+  @Input() public title: string = '';
 
   private loadAPI: Promise<any>;
 
@@ -45,7 +45,7 @@ export class NgCodepenComponent implements AfterViewInit, AfterViewChecked {
     const user = rawData.split('/pen/')[0];
     element.setAttribute('data-slug-hash', slugHash);
     element.setAttribute('data-user', user);
-    element.setAttribute('data-height', this.height.toString());
+    element.setAttribute('data-height', this.height);
     element.setAttribute('data-theme-id', this.themeId);
     element.setAttribute('data-default-tab', this.tabs);
     element.setAttribute('data-pen-title', this.title);

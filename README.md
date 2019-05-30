@@ -9,7 +9,7 @@
 
  - Install this Library
 
-[![NPM](https://nodei.co/npm/ng-codepen.png?mini=true)](https://npmjs.org/package/ng-codepen)
+[![NPM](https://nodei.co/npm/ng-codepen.png?mini=true)](https://npmjs.org/package/ng-codepen) [![Greenkeeper badge](https://badges.greenkeeper.io/iwannabebot/ng-codepen.svg)](https://greenkeeper.io/)
 
  - Declare NgCodepenModule in your root module
 
